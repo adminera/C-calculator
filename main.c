@@ -13,7 +13,9 @@ int num1;
 int num2;
 int option;
 int addResult;
-
+int subtractResult;
+int multiplyResult;
+int divideResult;
 
 
 // statements to introduce the user to the calculator
@@ -34,6 +36,22 @@ int addResult;
 if (option == 1) {
 addResult = num1 + num2;
 printf("%d", addResult);
+}
+
+if (option == 2) {
+subtractResult = num1 - num2;
+printf("%d", subtractResult);
+}
+
+if (option == 3) {
+multiplyResult = num1 * num2;
+printf("%d", multiplyResult);
+}
+
+
+if (option == 4) {
+divideResult = num1 / num2;
+printf("%d", divideResult);
 }
 
     return 0;
